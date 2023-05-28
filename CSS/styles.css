@@ -1,81 +1,82 @@
 .row-header {
     margin: 0px auto;
     padding: 0px;
-    font-size: 20px;
-
+    font-size: 15px;
 }
 
 .row-content {
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
+    border-bottom: 0px ridge;
     min-height: 400px;
 }
 
-.footer {
-    background-color: #dac5de;
-    margin: 0px auto;
-    padding: 20px 0px 20px 0px;
-}
-
 .jumbotron {
-    padding: 70px 30px 70px 30px;
-    margin: 0px auto;
-    background: #9575CD;
-    color: floralwhite;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+    color: rgb(255, 255, 255);
 }
 
-address {
-    font-size: 80%;
-    margin: 0px;
-    color: #0f0f0f;
-}
-
-.imageChange {
-    max-width: 200px;
-    height: auto;
-}
-
-body {
-    padding: 50px 0px 0px 0px;
-    z-index: 0;
-}
-
-.navbar-dark {
-    background-color: #512DA8;
-}
-
-.logo{
-    margin-left: 20px;
-}
-
-.button{
-    padding: 8px 32px;
-    margin-left: 8px;
-}
-
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-}
-.carousel {
-    background:#512DA8;
-}
 .carousel-item {
-  height: 300px;
+    height: 400px;
+    margin: 0px auto;
 }
+
 .carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 300px;
+    min-height: auto;
 }
 
-#carouselButton {
-    right:0px;
+#labelButton {
+    left: 0px;
     position: absolute;
-    bottom: 0px;
+    top: 0px;
     z-index: 1;
+}
+
+.label {
+    background-color: yellow;
+    padding: 0 20px 0 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+}
+
+/* .buy-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buy-button button {
+    background-color: #f2f2f2;
+    color: #333333;
+  } */
+
+.btn-outline-light {
+    color: #f8f9fa;
+    background-color: red;
+    background-image: none;
+    border-color: red;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    margin-right: 0px;
+}
+
+.card-text del {
+    color: black;
 }

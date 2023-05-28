@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assigment01</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
@@ -14,232 +16,233 @@
 
 <body>
     <header class="jumbotron">
-        <div class="row row-header">
-            <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-                <div class="container">
-                    <a class="navbar-brand" href="#"><img src="images/logo.png" height="30" width="41"></a>
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
-                                Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span
-                                    class="fa fa-info fa-lg"></span> About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
-                                    class="fa fa-address-card fa-lg"></span>
-                                Contact</a></li>
-                    </ul>
-                    <div>
-                        <span class="navbar-text">
-                            <a data-toggle="modal" data-target="#loginModal">
-                                <span class="fa fa-sign-in"></span> Login</a>
-                        </span>
-                    </div>
-                </div>
-            </nav>
-        </div>
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and
-                        create a unique fusion experience.Our lipsmacking
-                        creations will tickle your culinary senses!</p>
-                </div>
-                <div class="col-12 col-md-3 mt-3">
-                    <div class="logo col-12 col-sm align-self-center">
-                        <img src="images/logo.png" class="img-fluid">
+            <div class="row row-header">
+                <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+                    <div class="container">
+                        <h4>Pizza House</h4>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#" style=" margin: 0 30px;"> Home</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="./aboutus.html"> About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./contactus.html"
+                                    style=" margin: 0 30px;">Contact</a></li>
+                        </ul>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+                                <span class="fa fa-search"></span>
+                            </button>
+                        </form>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
     </header>
-    <section>
+
+
+    <section style="background-color: #323232;">
+        <div class="row row-content" style="background-color: #323232;">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="images/pizza1.jpg" alt="Neapolitan Pizza">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Neapolitan Pizza
+                                </h2>
+                                <p class="d-none d-sm-block">If you are looking for a traditional Italian pizza, the
+                                    Neapolitan is the best option!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="images/pizza2.jpg" alt="romana pizza">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>
+                                    Romana Pizza
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="images/pizza3.jpg" alt="buffet">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>
+                                    Pizza Mozzarella
+                                </h2>
+                                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of
+                                    five
+                                    different salads,
+                                    six enticing appetizers, six main entrees and five choicest desserts. Free
+                                    flowing bubbly and soft drinks. All for just $19.99 per person
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="images/pizza4.jpg" alt="buffet">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>
+                                    Pizza Marinara
+                                </h2>
+                                <p class="d-none d-sm-block">Pizzeria Starita is famous for having the best Marinara
+                                    pizza in Naples.
+                                    Chef Antonio Starita topped with San Marzano tomato sauce, fresh datterini (cherry)
+                                    tomatoes and oregano leaves.
+                                    As soon as the pizza comes out of the oven,
+                                    sprinkle with a slice of fresh parmesan cheese.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="images/pizza5.jpg" alt="buffet">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Pizza Capricciosa
+
+                                </h2>
+                                <p class="d-none d-sm-block">Pizzeria Di Matteo is where Former President
+                                    Bill Clinton used to go to enjoy pizza during the G7 Summit in 1994.
+                                    It is also one of the few places in downtown Naples where you can eat good pizza
+                                    without having to wait in long lines.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        <li data-target="#mycarousel" data-slide-to="3"></li>
+                        <li data-target="#mycarousel" data-slide-to="4"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
-            <div class="row row-content">
-                <div class="col">
-                    <div id="mycarousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="images/uthappizza.png" alt="Uthappizza">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h2>Uthappizza
-                                        <span class="badge badge-danger">HOT</span>
-                                        <span class="badge badge-pill badge-secondary">$4.99</span>
-                                    </h2>
-                                    <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
-                                        Italian pizza, topped with Cerignola olives, ripe vine
-                                        cherry tomatoes, Vidalia onion, Guntur chillies and
-                                        Buffalo Paneer.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="images/buffet.png" alt="buffet">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h2>Weekend Grand Buffet
-                                        <span class="badge badge-danger">NEW</span>
-                                    </h2>
-                                    <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of
-                                        five
-                                        different salads,
-                                        six enticing appetizers, six main entrees and five choicest desserts. Free
-                                        flowing bubbly and soft drinks. All for just $19.99 per person
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="images/alberto.png" alt="Alberto Somayya">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h2>Alberto Somayya</h2>
-                                    <h4>Executive Chef</h4>
-                                    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
-                                        International experience having worked closely with
-                                        whos-who in the culinary world, he specializes in
-                                        creating mouthwatering Indo-Italian fusion experiences.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <ol class="carousel-indicators">
-                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#mycarousel" data-slide-to="1"></li>
-                            <li data-target="#mycarousel" data-slide-to="2"></li>
-                        </ol>
-                        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-5 bt-5">
-
-                <div class="col-sm-9">
-                    <div class="media">
-                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/uthappizza.png"
-                            alt="Uthappizza">
-                        <div class="media-body">
-                            <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span
-                                    class="badge badge-pill badge-secondary">$4.99</span> </h2>
-                            <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
-                                Italian pizza, topped with Cerignola olives, ripe vine
-                                cherry tomatoes, Vidalia onion, Guntur chillies and
-                                Buffalo Paneer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <h2>
-                        Our
-                        Lipsmacking
-                        Culinary
-                        Creations
-                    </h2>
-                </div>
-            </div>
-
-            <div class="row mt-5 bt-5">
-                <div class="col-sm-3">
-                    <h2>
-                        This Month's
-                        Promotions
-                    </h2>
-
-                </div>
-
-                <div class="col-sm-9">
-                    <div class="media">
-                        <div class="media-body">
-                            <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span> </h2>
-                            <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five
-                                different salads,
-                                six enticing appetizers, six main entrees and five choicest desserts. Free
-                                flowing bubbly and soft drinks. All for just $19.99 per person
-                            </p>
-                        </div>
-                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/buffet.png" alt="buffet">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-5 bt-5">
-                <div class="col-sm-9">
-                    <div class="media">
-                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/alberto.png"
-                            alt="Alberto Somayya">
-                        <div class="media-body">
-                            <h2 class="mt-0">Alberto Somayya</h2>
-                            <h4>Executive Chef</h4>
-                            <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
-                                International experience having worked closely with
-                                whos-who in the culinary world, he specializes in
-                                creating mouthwatering Indo-Italian fusion experiences.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <h2>
-                        Meet our
-                        Culinary
-                        Specialists
-
-                    </h2>
-                </div>
-
-            </div>
-        </div>
-
-
-        <div class="row row-content">
-            <div class="container ">
-                <div class="offset-md-3 col-md-6" id="reserveform">
-
-                    <div class="card bg-warning text-white">
+            <h1>Our Menu</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="Images/menu1.jpg" alt="Margherita Pizza" class="card-img-top">
                         <div class="card-body">
-                            <h3>Reserve a Table</h3>
+                            <h5 class="card-title">Margherita Pizza</h5>
+                            <p class="card-text" style="color: orange;"><del>$40.00</del><b>$24.00</b></p>
+                            <div class="col-12">
+                                <a role="button" class="btn btn-block nav-link btn-dark" data-placement="bottom"
+                                    style="
+                                color: white;">
+                                    Buy</a>
+                            </div>
+                        </div>
+                        <div class="btn-group" id="labelButton">
+                            <button class="label">
+                                <a>SALE</a>
+                            </button>
                         </div>
                     </div>
-
-                    <div class="form-group row mt-3">
-                        <label for="guestsnum" class="col-12 col-md-3 col-form-label">Number of Guests</label>
-                        <div class="col-12 col-md-6">
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="optradio">1
-                                    <input type="radio" class="form-check-input" name="optradio">2
-                                    <input type="radio" class="form-check-input" name="optradio">3
-                                    <input type="radio" class="form-check-input" name="optradio">4
-                                    <input type="radio" class="form-check-input" name="optradio">5
-                                    <input type="radio" class="form-check-input" name="optradio">6
-                                </label>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="Images/menu2.jpg" alt="Mushroom Pizza" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Mushroom Pizza</h5>
+                            <p class="card-text">$25.00</p>
+                            <div class="col-12">
+                                <a role="button" class="btn btn-block nav-link btn-dark" data-placement="bottom"
+                                    style="
+                                color: white;">
+                                    Buy</a>
                             </div>
                         </div>
                     </div>
-
-                    <div class="form-group row ">
-                        <label for="telnum" class="col-12 col-md-3 col-form-label">Date and Time</label>
-                        <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="Date" name="Date" placeholder="Date">
-                        </div>
-                        <div class="col-6 col-md-6">
-                            <input type="tel" class="form-control" id="Time" name="Time" placeholder="Time">
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="Images/menu3.jpg" alt="Hawaiian Pizza" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Hawaiian Pizza</h5>
+                            <p class="card-text">$30.00</p>
+                            <div class="col-12">
+                                <a role="button" class="btn btn-block nav-link btn-dark" data-placement="bottom"
+                                    style="
+                                color: white;">
+                                    Buy</a>
+                            </div>
+                            <div class="btn-group" id="labelButton">
+                                <button class="label">
+                                    <a>NEW</a>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group row mt-5">
-                        <div class="offset-md-3 col-md-10">
-                            <button type="submit" class="btn btn-primary">Reserve</button>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="Images/menu4.jpg" alt="Pesto Pizza" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pesto Pizza</h5>
+                            <p class="card-text" style="color: orange;"><del>$50.00</del><b>$30.00</b></p>
+                            <div class="col-12">
+                                <a role="button" class="btn btn-block nav-link btn-dark" data-placement="bottom"
+                                    style="
+                                color: white;">
+                                    Buy</a>
+                            </div>
+                            <div class="btn-group" id="labelButton">
+                                <button class="label">
+                                    <a>SALE</a>
+                                </button>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
+        <div class="row row-content" style="background-color: #323232;">
+
+            <div class="container">
+                <div class="form-group row">
+                    <div class="offset-md-5 col-md-4">
+                        <h3>Book your table</h3>
+                    </div>
+                </div>
+                <div class="form-group row">
+
+                    <div class="col-md-4">
+                        <input type="name" class="form-control" id="name" name="name" placeholder="Your Name*">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="mail" class="form-control" id="mail" name="mail" placeholder="Your Mail*">
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-control">
+                            <option>Select a Service</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12 mt-4">
+                        <textarea class="form-control" id="comment" name="comment"
+                            placeholder="Please write your comment" rows="6"></textarea>
+                    </div>
+                    <div class="col-md-2 mt-3">
+                        <a role="button" class="btn btn-block nav-link btn-warning" data-placement="bottom" style="color:aliceblue">Send
+                            message</a>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </section>
 
 </body>
